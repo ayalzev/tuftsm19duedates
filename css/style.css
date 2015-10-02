@@ -1,6 +1,7 @@
 body {
   padding-top: 70px;
   padding-bottom: 30px;
+  background-color:rgba(0, 67, 146, 0.49);
 }
 
 .theme-dropdown .dropdown-menu {
@@ -13,18 +14,30 @@ body {
   margin: 5px 0;
 }
 
+.jumbotron{
+	background-color:rgba(0, 43, 156, 0.21);
+}
+
 .theme-showcase .navbar .container {
   width: auto;
 }
 
 .assDesc{
-  color:blue;
+  font-weight:bold;
 }
 
 .time{
-  color:red;
+  color:#D80000;
 }
 
-#upcoming{
+#upcoming-desc{
   font-size:20px;
+  text-align:center;
+
+}
+
+#upcoming-date{
+  font-size:20px;
+  color:#D80000;
+  text-align:center;
 }
