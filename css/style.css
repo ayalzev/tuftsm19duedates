@@ -30,14 +30,42 @@ body {
   color:#D80000;
 }
 
-#upcoming-desc{
-  font-size:20px;
-  text-align:center;
+@media only screen and (max-width: 400px){
+	#upcoming-desc{
+		display:none;
+	  text-align:center;
 
+	}
+
+	#upcoming-date{
+	  display:none;
+	  color:#D80000;
+	  text-align:center;
+	}
+	
+
+	#mobile-dates{
+		font-size:15px;
+		text-align:center;
+	}
+	
 }
 
-#upcoming-date{
-  font-size:20px;
-  color:#D80000;
-  text-align:center;
+@media only screen and (min-width: 401px){
+	#upcoming-desc{
+	  font-size:20px;
+	  text-align:center;
+
+	}
+	
+	#upcoming-date{
+	  font-size:20px;
+	  color:#D80000;
+	  text-align:center;
+	}
+	
+	#mobile-dates{
+		display:none;
+		text-align:center;
+	}
 }
