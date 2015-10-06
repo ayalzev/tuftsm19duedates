@@ -1,11 +1,6 @@
 var listOfAssignments = {
 	"assignments": [
-	{
-		"id":1,
-		"name":"Epi/Bio Homework Quiz 2",
-		"course":"EpiBio",
-		"due":new Date(2015,9,5,23,59,00,00)
-	},			
+		
 	{
 		"id":8,
 		"name":"Microbiology Small Group",
