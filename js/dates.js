@@ -71,12 +71,13 @@ $(document).ready(function(){
 		var dueDay = listOfAssignments.assignments[i].due.getDate();
 		var dueMonth = listOfAssignments.assignments[i].due.getMonth() + 1;
 		var dueDate = listOfAssignments.assignments[i].due.toDateString().split(' 201')[0];
-		//var dueTime = listOfAssignments.assignments[i].due.toTimeString().split(' ')[0];
+		var now = new Date();
 		var desc = listOfAssignments.assignments[i].name;
-		//$("#upcoming").append('<li><span class="time">' + dueDate + '</span> ~ <span class="assDesc">' + desc + '</span></li>');
-		$("#upcoming-date").append('<p>' + dueDate + '</p>');
-		$("#upcoming-desc").append('<p>' + desc + '</p>');		
-		$("#mobile-dates").append('<p>' + dueMonth + '/' + dueDay + ' ~ ' + desc + '</p>');
+		if(now < listOfAssignments.assignments[i].due){
+			$("#upcoming-date").append('<p>' + dueDate + '</p>');
+			$("#upcoming-desc").append('<p>' + desc + '</p>');		
+			$("#mobile-dates").append('<p>' + dueMonth + '/' + dueDay + ' ~ ' + desc + '</p>');
+		}
 	}
 
 });
