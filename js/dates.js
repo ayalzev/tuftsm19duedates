@@ -6,7 +6,14 @@ var listOfAssignments = {
 		"name":"Microbiology Small Group",
 		"course":"Microbiology",
 		"due":new Date(2015,9,7,23,59,00,00)
-	},		
+	},	
+	{
+		"id":12,
+		"name":"?EpiBio Prep Questions?",
+		"course":"EpiBio",
+		"due":new Date(2015,9,12,23,59,00,00)
+	},
+	
 	{
 		"id":5,
 		"name":"Ethics Quiz & Case Analysis 1",
