@@ -9,11 +9,10 @@ var listOfAssignments = {
 	},	
 	{
 		"id":12,
-		"name":"?EpiBio Prep Questions?",
+		"name":"EpiBio Prep Questions",
 		"course":"EpiBio",
 		"due":new Date(2015,9,12,23,59,00,00)
 	},
-	
 	{
 		"id":5,
 		"name":"Ethics Quiz & Case Analysis 1",
@@ -25,6 +24,12 @@ var listOfAssignments = {
 		"name":"Microbiology Small Group",
 		"course":"Microbiology",
 		"due":new Date(2015,9,14,23,59,00,00)
+	},
+	{
+		"id":13,
+		"name":"EpiBio Prep Questions",
+		"course":"EpiBio",
+		"due":new Date(2015,9,19,23,59,00,00)
 	},	
 	{
 		"id":2,
@@ -32,6 +37,12 @@ var listOfAssignments = {
 		"course":"EpiBio",
 		"due":new Date(2015,9,26,23,00,00,00)
 	},
+	{
+		"id":14,
+		"name":"EpiBio Prep Questions",
+		"course":"EpiBio",
+		"due":new Date(2015,9,26,23,59,00,00)
+	},	
 	{
 		"id":3,
 		"name":"Epi/Bio Homework Quiz 4",
