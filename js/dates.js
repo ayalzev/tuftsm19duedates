@@ -53,13 +53,13 @@ var listOfAssignments = {
 		"id":6,
 		"name":"SAT Modules",
 		"course":"SAT",
-		"due":new Date(2016,0,1,23,59,00,00)
+		"due":new Date(2015,0,1,23,59,00,00)
 	},
 	{
 		"id":7,
 		"name":"Ethics Quiz & Case Analysis 2",
 		"course":"Ethics",
-		"due":new Date(2016,2,9,23,59,00,00)
+		"due":new Date(2015,2,9,23,59,00,00)
 	},	
 	
 ]
