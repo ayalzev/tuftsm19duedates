@@ -72,4 +72,12 @@ body {
 		display:none;
 		text-align:center;
 	}
+	
+	.mandatory{
+		font-size:20px;
+		text-align:center;
+	}
+	.date{
+		color:#D80000;
+	}
 }
