@@ -11,6 +11,20 @@ var listOfExams = {
 		"date": new Date(2015,9,19,08,15,00,00)
 	},
 	{
+		"exam":"MIDPR OSCE Final",
+		"id":"MIDPR1",
+		"description":"MIDPR Final Exam",
+		"modules":["Everything"],
+		"date": new Date(2015,10,9,13,00,00)
+	},	
+	{
+		"exam":"MIDPR OSCE Final",
+		"id":"MIDPR2",
+		"description":"MIDPR Final Exam",
+		"modules":["Everything"],
+		"date": new Date(2015,10,10,13,00,00)
+	},
+	{
 		"exam":"Epi/Bio",
 		"id":"EPIBIO",
 		"description":"Final Exam",
