@@ -1,15 +1,6 @@
 var listOfExams = {
 	"exams":[
-	{
-		"exam":"Med Foundations I",
-		"id":"MF1E3",
-		"description":"Exam 3",
-		"modules":["Biochemistry: Lipid Metabolism (25) - Heme (32)", 
-					"Histology: Cardiovascular (7) - Gastrointestinal III (12)", 
-					"Immunology: Innate (1) - Cellular Cooperation (8)", 
-					"Microbiology: Intro (1) - Pseudomonas/CF (6)"],
-		"date": new Date(2015,9,19,08,15,00,00)
-	},
+	
 	{
 		"exam":"MIDPR OSCE Final",
 		"id":"MIDPR1",
