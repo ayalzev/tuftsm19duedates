@@ -4,13 +4,13 @@ var listOfAssignments = {
 		"id":1,
 		"name":"Limb/Back Lab Quiz",
 		"course":"Anatomy",
-		"due":new Date(2015,12,11,09,00,00,00)
+		"due":new Date(2015,11,11,09,00,00,00)
 	},	
 	{
 		"id":10,
 		"name":"SAT Modules",
 		"course":"SAT",
-		"due":new Date(2015,12,31,23,59,00,00)
+		"due":new Date(2015,11,31,23,59,00,00)
 	},
 ]
 };
