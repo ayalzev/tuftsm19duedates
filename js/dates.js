@@ -1,85 +1,17 @@
 var listOfAssignments = {
 	"assignments": [
-		
 	{
-		"id":8,
-		"name":"Microbiology Small Group",
-		"course":"Microbiology",
-		"due":new Date(2015,9,7,23,59,00,00)
-	},	
-	{
-		"id":12,
-		"name":"EpiBio Prep Questions",
-		"course":"EpiBio",
-		"due":new Date(2015,9,12,23,59,00,00)
-	},
-	{
-		"id":5,
-		"name":"Ethics Quiz & Case Analysis 1",
-		"course":"Ethics",
-		"due":new Date(2015,9,14,23,59,00,00)
-	},	
-	{
-		"id":9,
-		"name":"Microbiology Small Group",
-		"course":"Microbiology",
-		"due":new Date(2015,9,14,23,59,00,00)
-	},
-	{
-		"id":13,
-		"name":"EpiBio Prep Questions",
-		"course":"EpiBio",
-		"due":new Date(2015,9,19,23,59,00,00)
-	},	
-	{
-		"id":2,
-		"name":"Epi/Bio Homework Quiz 3",
-		"course":"EpiBio",
-		"due":new Date(2015,9,26,23,00,00,00)
-	},
-	{
-		"id":14,
-		"name":"EpiBio Prep Questions",
-		"course":"EpiBio",
-		"due":new Date(2015,9,26,23,59,00,00)
-	},	
-	{
-		"id":3,
-		"name":"Epi/Bio Homework Quiz 4",
-		"course":"EpiBio",
-		"due":new Date(2015,10,2,23,59,00,00)
-	},	
-	{
-		"id":4,
-		"name":"Epi/Bio Paper Critique",
-		"course":"EpiBio",
-		"due":new Date(2015,10,2,23,59,00,00)
+		"id":1,
+		"name":"Limb/Back Lab Quiz",
+		"course":"Anatomy",
+		"due":new Date(2015,12,11,09,00,00,00)
 	},	
 	{
 		"id":10,
-		"name":"Microbiology Small Group",
-		"course":"Microbiology",
-		"due":new Date(2015,10,4,23,59,00,00)
-	},
-	{
-		"id":11,
-		"name":"Microbiology Small Group",
-		"course":"Microbiology",
-		"due":new Date(2015,10,6,23,59,00,00)
-	},
-	{
-		"id":6,
 		"name":"SAT Modules",
 		"course":"SAT",
-		"due":new Date(2015,0,1,23,59,00,00)
+		"due":new Date(2015,12,31,23,59,00,00)
 	},
-	{
-		"id":7,
-		"name":"Ethics Quiz & Case Analysis 2",
-		"course":"Ethics",
-		"due":new Date(2015,2,9,23,59,00,00)
-	},	
-	
 ]
 };
 
